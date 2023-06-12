@@ -1,0 +1,343 @@
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+ body{
+    background-color: #DDE6ED;
+  }
+header{
+font-size: 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    font-size: 1em;
+    border-bottom: 1.5px solid #999;
+    margin: 0px 0px;
+    background-color: #27374D;
+}
+nav .navbar-right{
+    font-size: 1em;
+}
+nav .navbar-left{
+    color: #DDE6ED;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+
+}
+.navbar-right a{
+    color: #DDE6ED;
+    margin: 15px;
+    font-size: 1.2em;
+    }
+.navbar-left a{
+    color: #DDE6ED;
+    margin: 8px;
+    font-size: 1.2em;
+   }
+   .navbar-right a:hover{
+    background-color:#DDE6ED ;
+    border-radius: 5px;
+    color: #27374D;
+    margin: 8px;
+    font-size: 1.2em;
+    margin: 15px
+   }
+.navbar-left a i{
+    margin: 0px 0px 0px 10px;
+    font-size: 1.2em;
+
+}
+section{
+margin: 20px;
+display: flex;
+justify-content: center;
+position: relative;
+}
+section .slider{
+width: auto;
+position: relative;
+
+}
+
+.slider .btns {
+position: absolute;
+left:2% ;
+bottom: 1% ;
+}
+.slider .btns i{
+    color: rgba(162, 153, 153, 0.4);
+    cursor: pointer;
+    
+}
+.slider .btns i:hover{
+    color: rgba(90, 90, 90, 0.7);
+    cursor: pointer;
+}
+.slider .item{
+display: none;
+}
+.slider .active{
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    
+}
+.slider .item img{
+    width: 1200px;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 550px;
+}
+.home-products{
+margin: 0 30px;
+font-size: 1em;
+}
+.product-card{
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .4);
+padding: 10px;
+border-radius: 5px;
+margin: 20px 0px;
+text-align: center;
+padding-bottom: 20px;
+background-color: white
+}
+.product-card .product-card-image{
+position: relative;
+}
+.product-card .product-card-image img{
+width: 100%;
+}
+.product-card .product-card-image .offer{
+position: absolute;
+top: 2%;
+left: 2%;
+background-color: #e9e8e8;
+color: #777;
+border-radius: 20px;
+padding: 0px 10px ;
+opacity: .7;
+}
+.product-card .product-card-image .offer i{
+    color: red;
+}
+.product-card .product-card-titel{
+
+}
+.product-card .product-card-btns{
+display: flex;
+justify-content:space-between;
+margin-top:20px ;
+}
+.product-card .product-card-btns .right{
+
+}
+.product-card .product-card-btns .right .price{
+    font-weight: bold;
+}
+.product-card .product-card-btns .left{
+display: flex;
+    justify-content: space-around;
+}
+.product-card .product-card-btns .right a{
+color: #444;
+}
+.product-card .product-card-btns .left a{
+color: #444;
+font-size: 1.5em;
+ margin: 5px;   
+}
+.product-card .product-card-btns .left .basket i {
+transition: .75s;
+}
+.product-card .product-card-btns .left .basket i:hover {
+font-size: 1.5em;
+color: #27374D;
+}
+.product-card .product-card-btns .left .heart i {
+transition: .75s;
+}
+.product-card .product-card-btns .left .heart i:hover {
+color: #822929;
+font-size: 1.5em;
+}
+.offer-main .row{
+background-color: white;
+
+}
+.offer-main{
+margin: 45px;
+background-color: white;
+}
+.offer-main .hot-offer{
+    height: 100%;
+    
+} 
+.offer-main .hot-offer .left{
+    position: relative;
+}
+.offer-main .hot-offer .left span{
+    
+}
+.offer-main .hot-offer{
+border-radius: 5px;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .4);
+
+
+
+}
+.offer-main .hot-offer .left{
+}
+.off-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.offer-main .offer-titel {
+    z-index: 1;
+    position: absolute;
+    width: 20%;
+    top: 0;
+    left: 38%;
+    background-color: #E76161;
+    color: #ffffff;
+    max-width: 100%;
+    border: 2px solid #B04759;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.3em;
+    text-align: center
+}
+
+.offer-main .hot-offer .right img{
+    max-width: 100%;
+}
+.offer-main .offer-banner{
+  
+    
+}
+
+.offer-main .offer-banner img{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.hot-offer .left .main-offer-left{
+font-size: 1em;
+}
+.main-offer-left{
+position: relative;
+}
+.main-offer-left .price-row{
+display: flex;
+justify-content: space-around;
+margin-top: 70px;
+}
+.main-offer-left .price-row .price{
+color: #777;
+font-size: 1.3em;
+
+}
+.main-offer-left .price-row .off{
+    background-color: #E76161;
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+.main-offer-left .titel{
+text-align: center;
+margin-top: 60px;
+font-size: 1.2em;
+font-weight: bold;
+}
+.main-offer-left .counter-down{
+text-align: center;
+color: #999;
+font-size: 1em;
+}
+.main-offer-left .remainig-time{
+text-align: center;
+margin-top: 50px;
+padding-top: 20px;
+font-size: 1.7em;
+font-weight: bold;
+color: #777;
+border-top: 2px solid #b1b1b1;
+}
+.dragble-list{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.dragble-list img{
+    max-width: 200px !important;
+    height: 200px;
+    margin: auto;
+}
+.dragble-list .product-card{
+    margin: 20px 20px;
+}
+.dragble-list .title{
+    margin: 0 auto;
+    background-color: #E76161;
+    border-radius: 10px;
+    color: aliceblue;
+}
+footer{
+
+}
+footer .row{
+    margin: 0 0px;
+    background-color: #27374D;
+}
+footer .row .title{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #DDE6ED;
+}
+footer .row .left p{
+    color: #DDE6ED;
+}
+.footer-down{
+    border-top:2px solid #DDE6ED ;
+    text-align: center;
+    margin:0px 0px ;
+    background-color: #27374D;
+    padding: 10px 0;
+}
+footer .logo i{
+    color: white;
+    font-size: 2em;
+    margin: 20px;
+    padding: 20px;
+}
+/* madiaquery */
+@media screen and (max-width:1000px) {
+    .offer-main .offer-titel {
+    font-size: 1em;
+    }
+    .main-offer-left .price-row .price{
+        font-size: 1em;
+        
+        }
+    .main-offer-left .price-row .off{
+            background-color: #E76161;
+            color: #ffffff;
+            padding: 0px 20px;
+            font-size: 1em;
+            border-radius: 10px;
+        }
+        .main-offer-left .remainig-time{
+            font-size: 1.2em;
+            }    
+    
+}
+
+
+

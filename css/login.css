@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.login-container{
+
+max-width: 80%;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .4);
+}
+.login-container .row{
+    margin: 0;
+}
+.login-container .left{
+width: 100%;
+}
+.login-container .right{
+width: 100%;
+}
+.login-container .title{
+   
+}
+.login-image{
+margin: 0;
+}
+.login-image img{
+max-width: 100% ;
+}
+.login-box{
+padding: 0;
+display: flex;
+justify-content: center;
+}
+.login-box form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 0 auto;
+}
+
+.login-box form .email{
+    border: 0;
+    margin:0 .5em;
+    font-size: 1.05em;
+    width: 70%;
+}
+.login-box form .email:focus{
+    
+    outline: none;
+}
+.login-box form .pass:focus{
+    
+    outline: none;
+}
+.input-container{
+    border: 0;
+    border-bottom: 1.5px solid #27374d98;
+    width: 50%;
+    margin: 1.3em 0;
+    font-size: 1.1em;
+}
+.input-container i{
+   color: #27374D;
+}
+   ::placeholder {
+    color: #27374d98;
+  }
+.login-box form .pass{
+    border: 0;
+    margin:0 .5em;
+    font-size: 1.05em;
+    width: 70%;
+}
+form .login-btn{
+    width: 15%;
+    font-size: 1.2em;
+    margin: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #344b6a93;
+    color: white;
+}
+footer{
+    margin: 1.5em 4em;
+    
+}
+.footer-left{
+
+}
+.footer-left a{
+    text-decoration:underline;
+    color: #27374D;
+}
+.footer-right {
+    text-align:end
+}
+.footer-right i{
+font-size: 1.3em;
+margin: 0 .5em;
+}
